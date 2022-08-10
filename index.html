@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <title>...</title>
+  </head>
   <body>
-    <h1>LAVREH</h1>
+    <h1 id="agora"></h1>
+    
+    <a href="https://drive.google.com/file/d/1CCx46E_OTWgo1kDp-8gEU38uId1Aqlng/view?usp=sharing">
+      DOWNLOAD
+    </a>
 
     <script>
-      const dt = document.createElement('p');
-      dt.textContent = new Date().toISOString();
-      document.body.append(dt);
+      document.querySelector('#agora').textContent = new Date().toISOString();
     </script>
   </body>
 </html>

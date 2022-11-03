@@ -1,0 +1,31 @@
+body {
+	background-color: #0D1117;
+	font-family: Helvetica, Arial, sans-serif;
+				
+}
+
+h2 {
+	border-radius: 6px;
+	padding: 5px 15px;
+	text-align: left;
+	color: #FFF;
+	background-color: #3FB950;
+	text-shadow: #000 0 1px;
+}
+
+ul { line-height: 1.5 }
+li {
+	list-style-type: circle;
+	color: #8B949E;
+	width: max-content;
+}
+li:hover {
+	list-style-type: disc;
+	color: #FFF;
+}
+
+a {
+	color: #8B949E;
+	text-decoration: none;
+}
+a:hover { color: #FFF }
